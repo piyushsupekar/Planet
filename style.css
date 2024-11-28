@@ -1,13 +1,14 @@
 @font-face {
   font-family: 'Bellina';
-  src: url('./fonts/Bellina-Regular.woff') format('woff'),
-    url('./fonts/Bellina-Regular.woff') format('woff');
+  src: url('./fonts/Bellina.woff2') format('woff2'),
+    url('./fonts/Bellina.woff') format('woff'),
+    url('./fonts/Bellina.ttf') format('woff');
   font-weight: 200;
   font-style: normal;
 }
 * {
   margin: 0;
-  padding: 0; 
+  padding: 0;
   box-sizing: border-box;
 }
 html,
