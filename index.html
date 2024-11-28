@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" crossorigin src="/3d_Planets/assets/index-BSvuPGKe.js"></script>
+    <link rel="stylesheet" crossorigin href="/3d_Planets/assets/index-Cb_MtKkb.css">
+  </head>
+  <body>
+    <div class="w-full h-screen overflow-hidden">
+      <div class="w-full top-0 left-0 absolute z-[2]">
+        <nav
+          class="w-full h-[10vh] py-10 px-10 flex text-white justify-between items-center font-['Gilroy'] font-light"
+        >
+          <h3>Planets</h3>
+          <div class="flex items-center gap-6 font-sm">
+            <a href="#">Mercury</a>
+            <a href="#">Venus</a>
+            <a href="#">Earth</a>
+            <a href="#">Mars</a>
+          </div>
+        </nav>
+        <div
+          class="absolute top-[90%] left-1/2 -translate-x-1/2 text-center text-white"
+        >
+          <div class="w-full h-[9em] overflow-hidden">
+            <h1
+              class="h-full text-9xl planet-names tracking-normal hover:tracking-wide transition"
+            >
+              Neptune
+            </h1>
+            <h1
+              class="h-full text-9xl planet-names tracking-normal hover:tracking-wide transition"
+            >
+              Earth
+            </h1>
+            <h1
+              class="h-full text-9xl planet-names tracking-normal hover:tracking-wide transition"
+            >
+              Venus
+            </h1>
+            <h1
+              class="h-full text-9xl planet-names tracking-normal hover:tracking-wide transition"
+            >
+              Mars
+            </h1>
+          </div>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <div
+            class="bottom-0 left-0 w-full h-1 mt-4 bg-gradient-to-r from-transparent via-white to-transparent animate-[fade_2s_linear_infinite]"
+          ></div>
+        </div>
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+  </body>
+</html>
